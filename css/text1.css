@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'shrif0';
+    src: url(/fonts/Roboto.ttf);
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: block;
+    font-size: 23px;
+    font-family: 'shrift0';
+    margin: 0 auto;
+}
+
+.oleg {
+    font-size: 4vw;
+}
+
+.oleg1 {
+    display: block;
+    font-size: 4vw;
+}
+
+.container {
+    text-align: center;
+    background: linear-gradient(to right, #FEF958 20%, #CDAF18 40%, #EE9C3F 60%, #B35F00 80%);
+    background-size: 400% 400%;
+    color: #000;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 5s ease infinite;
+    transform: translate3d(0, 0, 0);
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
